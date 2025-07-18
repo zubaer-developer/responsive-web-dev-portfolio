@@ -185,11 +185,40 @@ footer textarea {
   display: none;
 }
 @media screen and (max-width: 576px) {
+  nav,
+  nav ul,
+  .banner,
+  .about-items,
   .skills-container,
   .resume-container,
   footer {
     flex-direction: column;
   }
+
+  nav ul {
+    gap: 20px;
+  }
+
+  .header {
+    background-image: none;
+  }
+
+  .banner {
+    margin: 0px;
+  }
+
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+
+  .banner-profile-pic {
+    width: 100%;
+  }
+
+  .about {
+    padding: 0px;
+  }
+
   footer {
     padding: 20px;
   }
